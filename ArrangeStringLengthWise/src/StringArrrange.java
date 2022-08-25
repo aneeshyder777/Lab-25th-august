@@ -1,4 +1,6 @@
-import java.util.*;
+//program to arange string array in decending order
+import java.util.*; // importing all library functions
+// class definition for string arrangement
 public class StringArrrange {
 	static void sort(String[]s, int n)
 	{
@@ -21,8 +23,8 @@ public class StringArrrange {
 		for(int i=0; i<n; i++)
 		System.out.print(str[i]+" ");
 	}
-
-	public static void main(String[] args) {
+        //main function from here
+	public static void main(String[] args) { 
 		String []arr = {"my","name","is","anees"};
 		int n =arr.length;
 		sort(arr,n);
